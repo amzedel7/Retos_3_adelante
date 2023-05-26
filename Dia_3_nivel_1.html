@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// 1 Declare las siguientes variables; firstN,name, lastName, country, city, age, isMarried, year y asignar un valor, use el operador typeof para verificar diferentes tipos de datos.
+let firstName = 'Elias'
+let lastName = 'Rojas Ledezma'
+let country = 'Bolivia'
+let city = 'Santa Cruz'
+let age = 27;
+let isMarried = true;
+let year = 2023
+console.log(typeof(firstName));
+console.log(typeof(lastName));
+console.log(typeof(country));
+console.log(typeof(city));
+console.log(typeof(age));
+console.log(typeof(isMarried));
+console.log(typeof(year));
+
+
+
+ // 2 Verifique si typeof '10' es igual a 10
+let numero1 = '10'
+let numero2 = 10
+console.log(typeof(numero1) == typeof(numero2));
+ 
+
+
+// 3 Verifique si parseInt('9.8') es igual a 10
+console.log(parseInt('9.8') == 10);
+
+
+
+ // 4 Verifique cualquier valor booleano true o false.
+ let rojas = 'apellido'
+ console.log(rojas == rojas);
+ // Escriba tres declaraciones de JavaScript que proporcionen un valor verdadero.
+ let rojo = 'color'
+ console.log(12 === 12);
+ console.log(rojas === rojas);
+ console.log(rojo === rojo);
+// Escriba tres declaraciones de JavaScript que proporcionen un valor falso.
+console.log(rojas === rojo);
+console.log(rojo === rojas);
+console.log(123 === 1213);
+
+
+
+ /** 5 Calcule primero el resultado de la siguiente expresión de comparación sin usar console.log(). Después de decidir el resultado, confirmelo usando console.log()
+4 > 3 :  true
+4 >= 3 : true
+4 < 3 : false
+4 <= 3 : false
+4 == 4 : true
+4 === 4 : true
+4 != 4 : false
+4 !== 4 : false
+4 != '4' : false
+4 == '4' : true
+4 === '4' : false */
+ console.log(4 > 3);
+ console.log(4 >= 3);
+ console.log(4 < 3);
+ console.log(4 <= 3);
+ console.log(4 == 4);
+ console.log(4 === 4);
+ console.log(4 != 4);
+ console.log(4 !== 4);
+ console.log(4 != '4');
+ console.log(4 == '4');
+ console.log(4 === '4');
+/*Encuentre la longitud de Python y jargon y haga una declaración de comparación falsa. */
+let python = 'Python'
+let jargon = 'jargon'
+console.log(python.length, jargon.length);
+console.log(python === jargon);
+
+
+
+/** 6 Calcule primero el resultado de las siguientes expresiones sin usar console.log(). Después de decidir el resultado, confirmelo usando console.log()
+
+4 > 3 && 10 < 12 : true / true -> true
+4 > 3 && 10 > 12 : true / false -> false
+4 > 3 || 10 < 12 : true / true -> true
+4 > 3 || 10 > 12 : true / false -> true
+!(4 > 3) : false
+!(4 < 3) : true
+!(false) : true
+!(4 > 3 && 10 < 12) : false / true -> false
+!(4 > 3 && 10 > 12) : false / false -> true
+!(4 === '4') : true
+No hay 'on' tanto en dragon como en python : true / true -> true*/ 
+console.log(4 > 3 && 10 < 12);
+console.log(4 > 3 && 10 > 12);
+console.log(4 > 3 || 10 < 12);
+console.log(4 > 3 || 10 > 12);
+console.log(!(4 > 3));
+console.log(!(4 < 3));
+console.log(!(false));
+console.log(!(4 > 3 && 10 < 12));
+console.log(!(4 > 3 && 10 > 12));
+console.log(!(4 === '4'));
+let dragon = 'dragon';
+console.log(dragon.includes('on'),python.includes('on'));
+
+
+
+//7 Utilice el objeto Date para realizar las siguientes actividades
+
+// ¿Qué año es hoy?
+const now = new Date();
+console.log(now.getFullYear());
+// ¿Qué mes es hoy con un número?
+const mes = new Date();
+console.log(mes.getMonth());
+// ¿Qué fecha es hoy?
+const fecha = new Date();
+console.log(fecha.getDate());
+// ¿Qué día es hoy con un número?
+const dia = new Date();
+console.log(dia.getDay());
+// ¿Cuál es la hora actual?
+const hora = new Date();
+console.log(hora.getHours());
+// ¿Cuántos minutos hay actualmente?
+const minutos = new Date ();
+console.log(minutos.getMinutes());
+// Averigüe el número de segundos transcurridos desde el 1 de enero de 1970 hasta ahora. 
+const tiempo = new Date();
+console.log(tiempo.getTime());
+
+
+    </script>
+</body>
+</html>
