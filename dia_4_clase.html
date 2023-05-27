@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let dia = prompt('Ingrese un dia de la semana');
+let diaminuscula = dia.toLowerCase();
+let diasinespacio = diaminuscula.trim();
+
+switch (dia.toLowerCase().trim()) {
+    case 'lunes':
+        console.log('Dia #2 de la semana. Trabajo a media maquina');
+        console.warn(`${dia}`)
+        break;
+    case 'martes':
+        console.log('dia #3 de la semana. Trabajo bien');
+        console.warn(`${dia}`)
+        break;
+    case 'miercoles':
+    console.log('dia #4 de la semana. Trabajo tambien');
+    console.warn(`${dia}`)
+        break;
+        case 'jueves':
+    console.log('dia #5 de la semana. Hay que trabajar ');
+    console.warn(`${dia}`)
+        break;
+        case 'viernes':
+    console.log('dia #6 de la semana. Hoy es viernes unas frias');
+    console.warn(`${dia}`)
+        break;
+        case 'sabado':
+    console.log('dia #7 de la semana. Vamos a jugar');
+    console.warn(`${dia}`)
+        break;
+        case 'domingo':
+    console.log('dia #1 de la semana. Dia de descanso, hacer deberes para la universidad y para seguir viviendo');
+    console.warn(`${dia}`)
+        break;
+
+    default:
+        alert('ingrese un dia o abandone la pagina');
+        break; 
+} 
+
+    let num = prompt('Ingrese un numero')
+    switch (true) {
+        case num > 0:
+           console.log('El numero es positivo') 
+            break;
+        case num == 0:
+           console.log('El numero es positivo') 
+            break;
+        case num < 0:
+           console.log('El numero es negativo') 
+            break;
+        
+        
+        default:
+            alert('Ingrese un numero')
+            break;
+    }
+    
+
+    let nota = prompt('Ingrese su nota')
+    nota >= 51
+    ? console.log(`estas aprobado con: ${nota}`) 
+    : console.error(`estas reprobado con:  ${nota} debes estudiar mas `)
+    
+
+    </script>
+</body>
+</html>
