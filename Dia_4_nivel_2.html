@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+let puntaje = prompt('Ingrese la calificacion del estudiante');
+if (parseInt(puntaje) >=80 && parseInt(puntaje) <= 100 ) {alert('Categoria A')
+} else if (parseInt(puntaje) >= 70 && parseInt(puntaje) <=79 ) {alert('Segundo')
+} else if (parseInt(puntaje) >= 60 && parseInt(puntaje) <=69 ) {alert('Segundo')
+} else if (parseInt(puntaje) >= 50 && parseInt(puntaje) <=59 ) {alert('Segundo')
+} else if (parseInt(puntaje) >= 49 && parseInt(puntaje) <=0 ) {alert('Segundo')
+} else { alert('Ingrese numeros del 0 al 100')}
+
+
+let temporada = prompt ('Ingrese un mes del año');
+temporada = temporada.toLowerCase().trim();
+if (
+    temporada == 'septiembre'|| temporada == 'octubre' || temporada == 'noviembre') {
+        alert('La temporada es Otoño')
+    }
+else if (
+    temporada == 'diciembre' || temporada == 'enero' || temporada == 'febrero' ){
+        alert('La temporada es Invierno ')
+    }
+else if (
+    temporada == 'marzo' || temporada == 'abril' || temporada == 'mayo' ){
+        alert('La temporada es Primavera')
+    }
+else if (
+    temporada == 'junio' || temporada == 'julio' || temporada == 'agosto' ){
+        alert('La temporada es Verano')
+    } else (alert('INGRESE UN MES DEL AÑO'))
+
+
+let semana = prompt('que dia es hoy?')
+semana = semana.toLowerCase().trim()
+if ( semana == 'domingo'){
+    alert('El Domingo es fin de semana')
+} else if (semana ==  'sabado') {
+    alert('El Sabado es fin de semana')
+} else if (semana == 'lunes') {
+    alert('El Lunes es un dia laborable')
+}else if (semana == 'martes') {
+    alert('El Martes es un dia laborable')
+}else if (semana == 'miercoles') {
+    alert('El Miercoles es un dia laborable')
+}else if (semana == 'jueves') {
+    alert('El Jueves es un dia laborable')
+}else if (semana == 'viernes') {
+    alert('El Viernes es un dia laborable')
+} else (alert('"INGRESE UN DIA DE LA SEMANA"'))
+
+    </script>
+</body>
+</html>
